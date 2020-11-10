@@ -18,14 +18,13 @@ nav{
     border-radius: 30px;
 }
 nav img{
-position: absolute;
-right: 10px;
-top: 5px;
-height: 21px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    height: 21px;
 }
 header{
     position: relative;
-    
     left: 80px;
     top: 50px;
 }
