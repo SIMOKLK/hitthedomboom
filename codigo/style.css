@@ -1,0 +1,47 @@
+
+
+
+.fondo{
+    position: relative;
+    width: 320px;
+    height: 568px;
+
+    background: #070125;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    position: absolute;
+    width: 63px;
+    height: 31px;
+    left: 247px;
+    top: 10px;
+
+    background: #07F488;
+    border-radius: 30px;
+}
+nav img{
+position: absolute;
+right: 10px;
+top: 5px;
+height: 21px;
+}
+header{
+    position: relative;
+    
+    left: 80px;
+    top: 50px;
+}
+header img{
+    width: 165px;
+    height: 45px;
+}
+main img{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 10px;
+    top: 138px;
+}
