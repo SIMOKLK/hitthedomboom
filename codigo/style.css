@@ -9,7 +9,7 @@
     position: relative;
     font-family: "Roboto"
 }
-nav .menupeke{
+.menupeke{
     width: 63px;
     height: 31px;
     left: 247px;
@@ -17,7 +17,7 @@ nav .menupeke{
     background: #07F488;
     border-radius: 30px;
 }
-nav .menupeke img{
+.menupeke img{
     position: absolute;
     right: 10px;
     top: 5px;
@@ -181,6 +181,9 @@ p {
         margin-top: 16px;
         font-size: 20px;
     }
+    .menupeke{
+        display: none;
+    } 
 }
 /* SEGUNDO FONDO */
 .fondosegundo {
