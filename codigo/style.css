@@ -35,7 +35,6 @@ header nav{
     display: none;
 }
 main .img1{
-    position: relative;
     width: 300px;
     height: 200px;
     left: 10px;
@@ -45,7 +44,6 @@ main .img2{
    display: none;
 }
 main .text{
-    
     display: inline-block;
 }
 h1 {
@@ -96,7 +94,6 @@ p {
         display: none;
     }
     header {
-        position: relative;
         left: 20vh;
         top: 20vh;
     }
@@ -106,7 +103,6 @@ p {
     }
     header .menugrande{
         display: unset;
-        position: relative;
         left: 100vh;
         right: 0%;
         top: -10vh;
@@ -140,14 +136,12 @@ p {
         top: 8px;
     }
     main .img1 {
-        position: relative;
         width: 100vh;
         height: 75vh;
         left: 100vh;
         top: -75vh;
     }
     main .img2{
-         position: relative;
          width: 70vh;
          height: 100vh;
          left: 120vh;
@@ -187,52 +181,31 @@ p {
         display: none;
     } 
     .textodesktop{
-        display: block;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 42px;
         display: flex;
-        align-items: center;
         text-align: center;
         color: #F9F9F9;
     }
     .textodesktop h2{
         position: absolute;
         width: 540px;
-        height: 68px;
         left: 298px;
         top: 575px;
         font-size: 28px;
     }
     .textodesktop h4{
         position: absolute;
-        width: 447px;
-        height: 41px;
         left: 340px;
         top: 630px;
-        font-style: normal;
         font-weight: 500;
         font-size: 18px;
-        line-height: 21px;
         color: #504B6A;
     }
     .textodesktop .boton2{
-
         position: absolute;
         left: 520px;
         top: 670px;
         background: #FFFFFF;
         border-radius: 30px;
-    }
-    .textodesktop .boton2 h3{
-        position: absolute;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 8px;
-        line-height: 19px;
-        color: #504B6A;
-        top: 4px;
     }
 
 }
@@ -240,7 +213,6 @@ p {
 .fondosegundo {
     width: 320px;
     height: 560px;
-    position: relative;
     background: #070125;
 }
 .fondosegundo h2 {
