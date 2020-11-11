@@ -32,7 +32,7 @@ header img{
 }
 
 main .img1{
-    position: absolute;
+    position: relative;
     width: 300px;
     height: 200px;
     left: 10px;
@@ -41,7 +41,10 @@ main .img1{
 main .img2{
    display: none;
 }
-
+main .text{
+    
+    display: inline-block;
+}
 h1 {
     left: 62px;
     top: 78px;
