@@ -1,5 +1,4 @@
 .fondo{
-    position: relative;
     width: 320px;
     height: 560px;
     background: #070125;
@@ -7,9 +6,9 @@
 * {
     margin: 0%;
     padding: 0%;
+    position: relative;
 }
 nav{
-    position: absolute;
     width: 63px;
     height: 31px;
     left: 247px;
@@ -24,52 +23,50 @@ nav img{
     height: 21px;
 }
 header{
-    position: relative;
     left: 80px;
-    top: 50px;
+    top: 41px;
 }
 header img{
     width: 165px;
     height: 45px;
 }
+
 main .img1{
     position: absolute;
     width: 300px;
     height: 200px;
     left: 10px;
-    top: 138px;
+    top: 66px;
 }
 main .img2{
    display: none;
 }
 
 h1 {
-    position: absolute;
     left: 62px;
-    top: 366px;
+    top: 78px;
     font-family: "Roboto";
     font-size: 41px;
     line-height: 48px;
     color: #F9F9F9;
 }
 p {
-    position: absolute;
     left: 46px;
-    top: 477px;
+    top: 88px;
     font-family: "Roboto";
     font-size: 12px;
     color: #504B6A;
 }
 .boton {
-    position: absolute;
     width: 131px;
     height: 35px;
     left: 46px;
-    top: 506px;
+    top: 103px;
     background: #07F488;
     border-radius: 30px;
 }
 .boton h3 {
+    position: absolute;
     width: 114px;
     margin-top: 10px;
     margin-left: 8px;
