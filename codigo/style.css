@@ -79,6 +79,9 @@ p {
     text-align: center;
     color: #FFFFFF;
 }
+.textodesktop {
+    display: none;
+}
 
 @media (min-width: 321px) and (min-height: 570px) {
     .fondo {
@@ -112,7 +115,6 @@ p {
         font-weight: bold;
         font-size: 18px;
         line-height: 21px;
-
         color: #FFFFFF;
     }
     ul {
@@ -184,6 +186,55 @@ p {
     .menupeke{
         display: none;
     } 
+    .textodesktop{
+        display: block;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #F9F9F9;
+    }
+    .textodesktop h2{
+        position: absolute;
+        width: 540px;
+        height: 68px;
+        left: 298px;
+        top: 575px;
+        font-size: 28px;
+    }
+    .textodesktop h4{
+        position: absolute;
+        width: 447px;
+        height: 41px;
+        left: 340px;
+        top: 630px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #504B6A;
+    }
+    .textodesktop .boton2{
+
+        position: absolute;
+        left: 520px;
+        top: 670px;
+        background: #FFFFFF;
+        border-radius: 30px;
+    }
+    .textodesktop .boton2 h3{
+        position: absolute;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 8px;
+        line-height: 19px;
+        color: #504B6A;
+        top: 4px;
+    }
+
 }
 /* SEGUNDO FONDO */
 .fondosegundo {
