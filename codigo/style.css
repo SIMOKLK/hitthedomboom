@@ -32,13 +32,17 @@ header img{
     width: 165px;
     height: 45px;
 }
-main img{
+main .img1{
     position: absolute;
     width: 300px;
     height: 200px;
     left: 10px;
     top: 138px;
 }
+main .img2{
+   display: none;
+}
+
 h1 {
     position: absolute;
     left: 62px;
@@ -86,18 +90,25 @@ p {
         display: none;
     }
     header {
-        position: absolute;
-        width: 332px;
-        height: 78px;
-        left: 160px;
-        top: 77px;
+        position: relative;
+        left: 20vh;
+        top: 20vh;
     }
-    main img {
-        position: absolute;
-        width: 686px;
-        height: 470px;
-        left: 641px;
-        top: 250px;
+    main .img1 {
+        position: relative;
+        width: 100vh;
+        height: 75vh;
+        left: 115vh;
+        top: -60vh;
+    }
+    main .img2{
+         position: relative;
+         width: 70vh;
+         height: 100vh;
+         left: 130vh;
+         top: 40vh;
+         filter: blur(100px);
+         display: block;
     }
     main h1 {
         width: 267px;
@@ -122,4 +133,5 @@ p {
         margin-top: 16px;
         font-size: 20px;
     }
+
 }
