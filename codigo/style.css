@@ -86,6 +86,9 @@ p {
         height: 1024px;
         background: #070125;
     }
+    .fondosegundo{
+        display: none;
+    }
     nav {
         display: none;
     }
@@ -94,19 +97,23 @@ p {
         left: 20vh;
         top: 20vh;
     }
+    header img{
+        width: 250px;
+        height: 70px;
+    }
     main .img1 {
         position: relative;
         width: 100vh;
         height: 75vh;
-        left: 115vh;
-        top: -60vh;
+        left: 100vh;
+        top: -75vh;
     }
     main .img2{
          position: relative;
          width: 70vh;
          height: 100vh;
-         left: 130vh;
-         top: 40vh;
+         left: 120vh;
+         top: 20vh;
          filter: blur(100px);
          display: block;
     }
