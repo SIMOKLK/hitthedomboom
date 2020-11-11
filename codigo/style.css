@@ -8,7 +8,7 @@
     padding: 0%;
     position: relative;
 }
-nav{
+nav .menupeke{
     width: 63px;
     height: 31px;
     left: 247px;
@@ -16,7 +16,7 @@ nav{
     background: #07F488;
     border-radius: 30px;
 }
-nav img{
+nav .menupeke img{
     position: absolute;
     right: 10px;
     top: 5px;
@@ -30,7 +30,9 @@ header img{
     width: 165px;
     height: 45px;
 }
-
+header nav{
+    display: none;
+}
 main .img1{
     position: relative;
     width: 300px;
@@ -89,7 +91,7 @@ p {
     .fondosegundo{
         display: none;
     }
-    nav {
+    nav .menupeke{
         display: none;
     }
     header {
@@ -100,6 +102,42 @@ p {
     header img{
         width: 250px;
         height: 70px;
+    }
+    header .menugrande{
+        display: unset;
+        position: relative;
+        left: 100vh;
+        right: 0%;
+        top: -10vh;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #FFFFFF;
+    }
+    ul {
+        display: inline-flex;
+        list-style: none;
+    }
+    ul li{
+        margin: 15px;
+        right: 80px;
+    }
+    .verde{
+        color: #07F488;
+    }
+    header .img3{
+
+        position: absolute;
+        width: 15px;
+        height: 35px;
+
+    }
+    header .line{
+        left: 283px;
+        top: 8px;
     }
     main .img1 {
         position: relative;
@@ -126,14 +164,19 @@ p {
     }
     main p {
         left: 192px;
-        top: 420px;
+        top: 285px;
         font-size: 18px;
+    }
+    main .text {
+        display: inline-block;
+        top:-160vh;
+        right: 100vh;
     }
     .boton {
         width: 191px;
         height: 53px;
         left: 192px;
-        top: 485px;
+        top: 320px;
     }
     .boton h3 {
         margin-left: 35px;
