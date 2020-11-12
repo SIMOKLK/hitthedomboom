@@ -7,8 +7,9 @@
     margin: 0%;
     padding: 0%;
     position: relative;
+    font-family: "Roboto"
 }
-nav{
+.menupeke{
     width: 63px;
     height: 31px;
     left: 247px;
@@ -16,7 +17,7 @@ nav{
     background: #07F488;
     border-radius: 30px;
 }
-nav img{
+.menupeke img{
     position: absolute;
     right: 10px;
     top: 5px;
@@ -30,9 +31,10 @@ header img{
     width: 165px;
     height: 45px;
 }
-
+header nav{
+    display: none;
+}
 main .img1{
-    position: relative;
     width: 300px;
     height: 200px;
     left: 10px;
@@ -42,13 +44,11 @@ main .img2{
    display: none;
 }
 main .text{
-    
     display: inline-block;
 }
 h1 {
     left: 62px;
     top: 78px;
-    font-family: "Roboto";
     font-size: 41px;
     line-height: 48px;
     color: #F9F9F9;
@@ -56,7 +56,6 @@ h1 {
 p {
     left: 46px;
     top: 88px;
-    font-family: "Roboto";
     font-size: 12px;
     color: #504B6A;
 }
@@ -74,10 +73,12 @@ p {
     margin-top: 10px;
     margin-left: 8px;
     height: 26px;
-    font-family: "Roboto";
     font-size: 14px;
     text-align: center;
     color: #FFFFFF;
+}
+.textodesktop {
+    display: none;
 }
 
 @media (min-width: 321px) and (min-height: 570px) {
@@ -86,27 +87,65 @@ p {
         height: 1024px;
         background: #070125;
     }
-    nav {
+    .fondosegundo{
+        display: none;
+    }
+    nav .menupeke{
         display: none;
     }
     header {
-        position: relative;
         left: 20vh;
         top: 20vh;
     }
+    header img{
+        width: 250px;
+        height: 70px;
+    }
+    header .menugrande{
+        display: unset;
+        left: 100vh;
+        right: 0%;
+        top: -10vh;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    ul {
+        display: inline-flex;
+        list-style: none;
+    }
+    ul li{
+        margin: 15px;
+        right: 80px;
+    }
+    .verde{
+        color: #07F488;
+    }
+    header .img3{
+
+        position: absolute;
+        width: 15px;
+        height: 35px;
+
+    }
+    header .line{
+        left: 283px;
+        top: 8px;
+    }
     main .img1 {
-        position: relative;
         width: 100vh;
         height: 75vh;
-        left: 115vh;
-        top: -60vh;
+        left: 100vh;
+        top: -75vh;
     }
     main .img2{
-         position: relative;
          width: 70vh;
          height: 100vh;
-         left: 130vh;
-         top: 40vh;
+         left: 120vh;
+         top: 20vh;
          filter: blur(100px);
          display: block;
     }
@@ -119,25 +158,89 @@ p {
     }
     main p {
         left: 192px;
-        top: 420px;
+        top: 285px;
         font-size: 18px;
+    }
+    main .text {
+        display: inline-block;
+        top:-160vh;
+        right: 100vh;
     }
     .boton {
         width: 191px;
         height: 53px;
         left: 192px;
-        top: 485px;
+        top: 320px;
     }
     .boton h3 {
         margin-left: 35px;
         margin-top: 16px;
         font-size: 20px;
     }
-}
+    .menupeke{
+        display: none;
+    } 
+    .textodesktop{
+        display: flex;
+        text-align: center;
+        color: #F9F9F9;
+    }
+    .textodesktop h2{
+        position: absolute;
+        width: 540px;
+        left: 298px;
+        top: 575px;
+        font-size: 28px;
+    }
+    .textodesktop h4{
+        position: absolute;
+        left: 340px;
+        top: 630px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #504B6A;
+    }
+    .textodesktop .boton2{
+        position: absolute;
+        left: 520px;
+        top: 670px;
+        background: #FFFFFF;
+        border-radius: 30px;
+    }
 
+}
+/* SEGUNDO FONDO */
 .fondosegundo {
-    width:100vw;
-    height:100vh;
-    position: relative;
+    width: 320px;
+    height: 560px;
     background: #070125;
+}
+.fondosegundo h2 {
+    left: 64px;
+    top: 366px;
+    font-size: 14px;
+    color: #F9F9F9;
+}
+.fondosegundo h4 {
+    left: 38px;
+    top: 374px;
+    font-size: 10px;
+    color: #504B6A;
+}
+.boton2 {
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    left: 118px;
+    top: 423px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.boton2 h3 {
+    width: 49px;
+    left: 15px;
+    top: 8px;
+    font-weight: bold;
+    font-size: 8px;
+    color: #504B6A;
 }
