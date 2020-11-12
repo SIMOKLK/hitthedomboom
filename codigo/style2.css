@@ -1,0 +1,77 @@
+
+.contenedor{
+    background: darkblue;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.cabezera{
+   
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.cuerpo{
+
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pie{
+       width: 100%;
+       position: relative;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       }
+
+.cuadro {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.recuadro {
+    background: red;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    background-color: cyan;
+}
+
+main {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+footer {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+body{
+    margin: 0;
+}
