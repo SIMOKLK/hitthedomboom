@@ -1,3 +1,6 @@
+body {
+  background: #070125;  
+}
 .contenedor{
     background:#070125;
     height: 100vh;
@@ -183,6 +186,9 @@ h3 {
 .fondosegundo {
     display: none;
 }
+.contenedor2{
+    display: none;
+}
 @media (max-width: 700px) and (max-height: 700px) {
     .menupeke{
         width: 63px;
@@ -214,8 +220,9 @@ h3 {
     .cuerpo{
        flex-direction: column-reverse;
     }
-    .text {
-        top: -12px;
+    .text { 
+        top: 0px;
+        left: auto;
         width: 200px;
     }
     footer {
@@ -226,6 +233,13 @@ h3 {
         height: 20px;
         transform: scale(0.8);
     }
+    .contenedor2{
+        display: block;
+        background:#070125;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
     .fondosegundo {
         display: block;
         width: 320px;
@@ -233,17 +247,19 @@ h3 {
         background: #070125;
     }
     .fondosegundo h2 {
-        left: 64px;
+        left: 79px;
         top: 366px;
         font-size: 14px;
         color: #F9F9F9;
+        width: auto;
     }
     .fondosegundo h4 {
-        left: 38px;
+        left: 52px;
         top: 374px;
         font-size: 10px;
         color: #504B6A;
-    }
+        width: 225px;
+}
     .fondosegundo .boton2 {
         position: relative;
         width: 77px;
