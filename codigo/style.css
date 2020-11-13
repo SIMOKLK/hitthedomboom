@@ -9,6 +9,10 @@
     position: relative;
     font-family: "Roboto"
 }
+body{
+    width: 320px;
+    height: 560px;
+}
 .menupeke{
     width: 63px;
     height: 31px;
@@ -26,6 +30,7 @@
 header{
     left: 80px;
     top: 41px;
+
 }
 header img{
     width: 165px;
@@ -96,6 +101,7 @@ p {
     header {
         left: 20vh;
         top: 20vh;
+        position: absolute;
     }
     header img{
         width: 250px;
