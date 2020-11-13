@@ -1,5 +1,5 @@
 .contenedor{
-    background: darkblue;
+    background:#070125;
     height: 100vh;
     width: 100%;
     position: relative;
@@ -50,7 +50,7 @@ header {
     height: 20vh;
     display: flex;
     align-items: center;
-    background-color: darkolivegreen;
+    background: #070125;
 }
 
 main {
@@ -66,7 +66,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: wheat;
+    background: #070125;
 }
 body{
     margin: 0;
@@ -104,7 +104,7 @@ ul li{
     width: 15px;
     height: 35px;
     left: 404px;
-    top: 46px;
+    top: 27px;
 }
 .line{
     left: 283px;
@@ -114,6 +114,8 @@ h2{
     position: relative;
     width: 540px;
     font-size: 28px;
+    color: #F9F9F9;
+
 }
 h4{
     position: relative;
@@ -189,7 +191,7 @@ h3 {
     .menupeke{
         width: 63px;
         height: 31px;
-        left: 247px;
+        margin-right: 12px;
         top: 10px;
         background: #07F488;
         border-radius: 30px;
@@ -197,7 +199,7 @@ h3 {
     }
     .menupeke img{
         position: absolute;
-        right: 10px;
+        right: 20px;
         top: 5px;
         height: 21px;
         display: block;
@@ -207,22 +209,25 @@ h3 {
     }
     .img1 {
         position: relative;
-        width: 325px;
-        height: 250px;
+        width: 300px;
+        height: 200px;
     }
     .img2{
-        position: absolute;
-        width: 350px;
-        left: 0px;
-        height: 265px;
-        filter: blur(100px);
-        display: block;
+        display: none;
     }
     .cuerpo{
        flex-direction: column-reverse;
     }
     .text {
         top: -12px;
-        left: 69px;
+        width: 200px;
     }
+    footer {
+        display: none;
+    }
+    .titulo {
+        width: 825px;
+        height: 20px;
+        transform: scale(0.8);
+    } 
 }
