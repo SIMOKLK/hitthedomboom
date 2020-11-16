@@ -1,24 +1,28 @@
 .nav{
     height: 10vh;
 }
+body{
+    background-color: #070125;
+    
+}
 .cuerpo1{
     height: 55vh;
-    background-color: #070125;
+    
    
 }
 .cuerpo2{
     height: 55vh;
-    background-color: #070125;
+    
    
 }
 .cabecera{
     height: 20vh;
-    background-color: #070125;
+   
    
 }
 .pie{
     height:25vh;
-    background-color: #070125;
+   
 }
 
 .img1{
