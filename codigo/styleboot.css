@@ -1,0 +1,33 @@
+.nav{
+    height: 20vh;
+}
+.cuerpo1{
+    height: 60vh;
+    background-color: yellow;
+}
+.cuerpo2{
+    height: 60vh;
+    background-color: green;
+}
+.cabecera{
+    height: 20vh;
+    background-color: grey;
+}
+.pie{
+    height:20vh;
+    background-color: indigo;
+}
+img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.navegador{
+    margin-top: 50px;
+}
+.cuerpo{
+
+}
+.img1{
+   height: 50vh;
+   width: 50vh;
+}
