@@ -26,8 +26,8 @@ body{
 }
 
 .img1{
-   height: 50vh;
-   width: 50vh;
+   height: 55vh;
+   width: 60vh;
    display: flex;
    position: absolute;
 }
@@ -72,3 +72,67 @@ body{
    
 
 }
+
+.botones{
+    background-color:#252525;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    
+}
+.grid{
+     height: 55vh;
+     width: 60vh;
+     display: flex;
+     position: absolute;
+     
+     
+}
+.pequeño{
+     width: 9vh;
+     height: 12vh;
+
+}
+.grande{
+    width: 12.5vh;
+    height: 16vh;
+}
+.p1{
+    top: 3vh;
+    left: 1.5vh;
+}
+.p2{
+    top:3.5vh;
+    left:44.5vh;
+}
+.p3 {
+    top:-8vh;
+    left:6vh;
+}
+.p4 {
+    top:-33vh;
+    left:49.5vh;
+}
+.g1 {
+    top:9vh;
+    left:7.5vh;
+}
+
+.g2 {
+    top: -7vh;
+    left: 22vh;
+}
+.g3 {
+    top: -2.5vh;
+    left: 29vh;
+}
+.g4 {
+    top:-18.5vh;
+    left: 0vh;
+}
+
+
+
+
