@@ -1,0 +1,74 @@
+.nav{
+    height: 10vh;
+}
+body{
+    background-color: #070125;
+    
+}
+.cuerpo1{
+    height: 55vh;
+    
+   
+}
+.cuerpo2{
+    height: 55vh;
+    
+   
+}
+.cabecera{
+    height: 20vh;
+   
+   
+}
+.pie{
+    height:25vh;
+   
+}
+
+.img1{
+   height: 50vh;
+   width: 50vh;
+   display: flex;
+   position: absolute;
+}
+.img2{
+      height: 60vh;
+      width: 60vh;
+      filter: blur(100px);
+}
+.titulo img{
+    margin-left: 20px ;
+}
+.menupeke{
+    display:none;
+}
+@media (max-width: 470px){
+    .menu{
+        display: none;
+    }
+    .menupeke {
+          width: 63px;
+          height: 31px;
+          right: 5px;
+          background: #07F488;
+          border-radius: 30px;
+          display: block;
+          position: absolute;
+      }
+
+    .menupeke img {
+          position: absolute;
+          right: 20px;
+          top: 5px;
+          height: 21px;
+          display: block;
+      }
+    .cuerpo1{
+        order: 2;
+    }
+    .cuerpo2{
+        order: 1;
+    }
+   
+
+}
