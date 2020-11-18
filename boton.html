@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Boton</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale:1.0">
+    </head>
+</html>
+<body>
+    <div>
+        <button data-numero="bombo">1</button>
+        <button data-numero="hithat">2</button>
+        <button data-numero="clap">3</button>
+        <button data-numero="charles">4</button>
+        <button data-numero="tom">5</button>
+    </div>
+    <audio data-numero="bombo" src="C:\Users\Juan Manuel\Desktop\010570900_prev.mp3">1</audio>
+    <audio data-numero="hithat">2</audio>
+    <audio data-numero="clap">3</audio>
+    <audio data-numero="charles">4</audio>
+    <audio data-numero="tom">5</audio>
+    <script>
+        document.addEventListener("click", function(event){
+            let numero = event.target.dataset.numero;
+            const sonido = document.querySelector("audio[data-numero="+ numero +"]");
+            if(!sonido) return;
+            sonido.currentTime = 0;
+            sonido.play();
+            console.log(numero);
+        });
+    </script>
+</body>
