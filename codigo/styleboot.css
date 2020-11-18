@@ -3,28 +3,19 @@
 }
 body{
     background-color: #070125;
-    
 }
 .cuerpo1{
     height: 55vh;
-    
-   
 }
 .cuerpo2{
     height: 55vh;
-    
-   
 }
 .cabecera{
     height: 20vh;
-   
-   
 }
 .pie{
     height:25vh;
-   
 }
-
 .img1{
    height: 55vh;
    width: 60vh;
@@ -69,10 +60,7 @@ body{
     .cuerpo2{
         order: 1;
     }
-   
-
 }
-
 .botones{
     background-color:#252525;
     position: relative;
@@ -80,20 +68,16 @@ body{
     display: flex;
     width: 30px;
     height: 30px;
-    
 }
 .grid{
      height: 55vh;
      width: 60vh;
      display: flex;
      position: absolute;
-     
-     
 }
 .pequeño{
      width: 9vh;
      height: 12vh;
-
 }
 .grande{
     width: 12.5vh;
@@ -132,7 +116,3 @@ body{
     top:-18.5vh;
     left: 0vh;
 }
-
-
-
-
