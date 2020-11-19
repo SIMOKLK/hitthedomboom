@@ -50,32 +50,51 @@
          <img class="img1 align-items-center"src="../imgs/drumkit.png">
 <div class="grid">
    <div class="pequeños">
-        <button class="botones pequeño p1"data-numero="clac"></button>
-        <button class="botones pequeño p2"data-numero="click"></button>
-        <button class="botones pequeño p3"data-numero="click2"></button>
-        <button class="botones pequeño p4"data-numero="platillo"></button>
+        <button class="botones pequeño p1"data-instrumento="clac"></button>
+        <button class="botones pequeño p2"data-instrumento="click"></button>
+        <button class="botones pequeño p3"data-instrumento="click2"></button>
+        <button class="botones pequeño p4"data-instrumento="platillo"></button>
     </div>
     <div class="grande">
-        <button class="botones grande g1"data-numero="tambormedio"></button>
-        <button class="botones grande g2"data-numero="tamborcorto"></button>
-        <button class="botones grande g3"data-numero="tamborlargo"></button>
-        <button class="botones grande g4"data-numero="platillobajo"></button>
+        <button class="botones grande g1"data-instrumento="tambormedio"></button>
+        <button class="botones grande g2"data-instrumento="tamborcorto"></button>
+        <button class="botones grande g3"data-instrumento="tamborlargo"></button>
+        <button class="botones grande g4"data-instrumento="platillobajo"></button>
     </div>
 </div>  
     </div>
     </div>
     
-    <audio data-numero="clac" src="../audios/clac.mp3"></audio>
-    <audio data-numero="click" src="../audios/click.mp3"></audio>
-    <audio data-numero="click2" src="../audios/click2.mp3"></audio>
-    <audio data-numero="platillo" src="../audios/platillo.mp3"></audio>
-    <audio data-numero="tambormedio" src="../audios/tambormedio.mp3"></audio>
-    <audio data-numero="tamborcorto" src="../audios/tamborcorto.mp3"></audio>
-    <audio data-numero="tamborlargo" src="../audios/tamborlargo.mp3"></audio>
-    <audio data-numero="platillobajo" src="../audios/platillobajo.mp3"></audio>
+    <audio data-instrumento="clac" src="../audios/clac.mp3"></audio>
+    <audio data-instrumento="click" src="../audios/click.mp3"></audio>
+    <audio data-instrumento="click2" src="../audios/click2.mp3"></audio>
+    <audio data-instrumento="platillo" src="../audios/platillo.mp3"></audio>
+    <audio data-instrumento="tambormedio" src="../audios/tambormedio.mp3"></audio>
+    <audio data-instrumento="tamborcorto" src="../audios/tamborcorto.mp3"></audio>
+    <audio data-instrumento="tamborlargo" src="../audios/tamborlargo.mp3"></audio>
+    <audio data-instrumento="platillobajo" src="../audios/platillobajo.mp3"></audio>
 
 </main>
+<script>
+    if (document.getElementById("botones").style.border = "none") {
+    document.ready(function(){
+    $("button").click(function(){
+        $(".botones").change({
+            borderwidth: "2px",
+            orderstyle: "outset",
+            bordercolor: "-internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195))",
+            borderimage: "initial"
+        }, 1500);
+    });
+});
+}
+nodoDelDomAlQueAccedemos.style.nombrePropiedad = 'valorPropiedad';
+
+
+</script>
 <script src="sonidos.js"></script>
+
+
 <footer>
 <div class="row d-flex align-items-center flex-column justify-content-center text-white pie">
     
