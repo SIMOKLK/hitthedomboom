@@ -12,24 +12,27 @@
     
 <header>
     <div class="row align-items-center cabecera">
-
-    <div class="navbar-brand col-md-3 col-sm-2 titulo">
-        <img src="../imgs/titulo.png">   </div>
-
-    <div class=" col-md-8 menu">
-             <ul class="nav justify-content-center ">
-                <a class="list-inline-item nav-link text-white"href="#">Premium</a>
-                <a class="list-inline-item nav-link text-white"href="#">Help</a> 
-                <a class="list-inline-item nav-link text-white"href="#">Download</a> 
-                <a class="list-inline-item nav-link text-success"href="#">Sign Up</a> 
-                <a class="list-inline-item nav-link text-white"href="#">Log In</a> 
-             </ul>
-     
-</div>
-    <nav class="menupeke col-sm-1"><img src="../imgs/menu.png"></nav>
-</div>
-
-
+        <div class="navbar-brand col-md-3 col-sm-2 titulo">
+            <img src="../imgs/titulo.png">   </div>
+        <div class=" col-md-8 menu">
+                <ul class="nav justify-content-center ">
+                    <a class="list-inline-item nav-link text-white"href="#">Premium</a>
+                    <a class="list-inline-item nav-link text-white"href="#">Help</a> 
+                    <a class="list-inline-item nav-link text-white"href="#">Download</a> 
+                    <a class="list-inline-item nav-link text-success"href="#">Sign Up</a> 
+                    <a class="list-inline-item nav-link text-white"href="#">Log In</a> 
+                </ul>
+        </div>
+    <nav  href="javascript:void(0);" onclick="abrirMenu()" class="menupeke icon col-sm-1">  
+        <img src="../imgs/menu.png">
+            <div id="myLinks">
+                <a href="#">Porqué</a>
+                <a href="#">me has</a>
+                <a href="#">abierto?</a>
+            </div>
+    </nav>
+    <script src="menuaccion.js"></script>
+    </div>
 </header>
 
 <main>
@@ -50,16 +53,16 @@
          <img class="img1 align-items-center"src="../imgs/drumkit.png">
 <div class="grid">
    <div class="pequeños">
-        <button class="botones pequeño p1"data-instrumento="clac"></button>
-        <button class="botones pequeño p2"data-instrumento="click"></button>
-        <button class="botones pequeño p3"data-instrumento="click2"></button>
-        <button class="botones pequeño p4"data-instrumento="platillo"></button>
+        <button class="botones pequeño p1 cambio"data-instrumento="clac"></button>
+        <button class="botones pequeño p2 cambio"data-instrumento="click"></button>
+        <button class="botones pequeño p3 cambio"data-instrumento="click2"></button>
+        <button class="botones pequeño p4 cambio"data-instrumento="platillo"></button>
     </div>
     <div class="grande">
-        <button class="botones grande g1"data-instrumento="tambormedio"></button>
-        <button class="botones grande g2"data-instrumento="tamborcorto"></button>
-        <button class="botones grande g3"data-instrumento="tamborlargo"></button>
-        <button class="botones grande g4"data-instrumento="platillobajo"></button>
+        <button class="botones grande g1 cambio"data-instrumento="tambormedio"></button>
+        <button class="botones grande g2 cambio"data-instrumento="tamborcorto"></button>
+        <button class="botones grande g3 cambio"data-instrumento="tamborlargo"></button>
+        <button class="botones grande g4 cambio"data-instrumento="platillobajo"></button>
     </div>
 </div>  
     </div>

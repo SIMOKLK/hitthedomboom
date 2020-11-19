@@ -3,7 +3,6 @@
             const sonido = document.querySelector("audio[data-instrumento="+ instrumento +"]");
             if(!sonido) return;
             sonido.currentTime = 0;
-            cambio.play();
             sonido.play();
             console.log(instrumento);
         });
