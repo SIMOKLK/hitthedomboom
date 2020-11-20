@@ -41,12 +41,12 @@ body{
           width: 63px;
           height: auto;
           right: 5px;
+          top: 4vh;
           background: #07F488;
           border-radius: 30px;
           display: block;
-          position: relative;
+          order: 1;
       }
-
     .menupeke img {
           position: relative;
           margin-top: 5px;
@@ -57,10 +57,10 @@ body{
           display: block;
       }
     .cuerpo1{
-        order: 2;
+        order: 3;
     }
     .cuerpo2{
-        order: 1;
+        order: 2;
     }
     .menupeke {
         overflow: hidden;
@@ -82,15 +82,14 @@ body{
         color: black;
         padding: 0;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 9px;
         display: block;
         height: 23px;
+        width: 52px;
+        -webkit-text-stroke: 0.2px green;
+
       }
-    #myLinks:onclick {
-        width:70px;
-        height:74px;
-        padding: 0;
-    }
+
     nav:hover {
         background-color: #ddd;
         color: black;
